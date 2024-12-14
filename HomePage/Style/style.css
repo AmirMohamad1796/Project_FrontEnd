@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: peyda;
+    margin: 0;
+    font-family: Peyda;
+}
+a{
+    text-decoration: none;
+    display: block;
+    color: #fff;
+}
+.header-link{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+.header{
+    background-color: #1A237E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 7rem;
+    border-bottom: 10px solid #F57C00;
+}
+.header-list{
+    color: #fff;
+    display: flex;
+    gap: 1.2rem;
+    list-style-type: none;
+}
+.header-list-item{
+    transition: all .2s ease-in;
+    border-radius: 5px;
+    padding: 0.4rem 1rem;
+    background-color: transparent;
+    font-weight: bold;
+}
+.header-list-item:hover{
+    background-color: #F57C00;
+}
+.main{
+    text-align: center;
+}
+.background{
+    padding: 5.5rem 7rem;
+    background: url('/HomePage/Resource/lop-top.avif');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+}
+.main-title{
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.main-caption{
+    font-size: 18px;
+    color: #fff;
+}
+.icons{
+    padding: 0 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10rem;
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+}
+.footer{
+    background-color: #D84315;
+}
+.text-footer{
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+/*  */
+.target-text{
+    background-color: #1A237E;
+    margin-top: 50px;
+    margin-right: 30px;
+    border-radius: 10px;
+    height: auto;
+    display: inline-block;
+}
+#p-target{
+    padding: 20px 20px;
+    color: #fff;
+    width: 400px;
+    height: 400px;
+}
+#h2-target{
+    padding: 20px 20px 0px 0;
+    color: #fff;
+}
+.containers{
+    display: flex;
+    text-align: justify;
+    line-height: 2;
+}
+.text{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 30px;
+    font-size: 1.5rem;
+}
+.footer-about{
+    margin-top: 100px;
+    margin-bottom: -25px;
+}
