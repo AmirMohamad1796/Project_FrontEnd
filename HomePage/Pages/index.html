@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/HomePage/Style/style.css">
+    <link rel="stylesheet" href="/HomePage/Style/notifocation-js.css">
+
     <title>WEB SITE</title>
 </head>
 <body>
@@ -12,9 +14,12 @@
         <ul class="header-list">
             <li class="header-list-item"><a href="">صفحه اصلی</a></li>
             <li class="header-list-item"><a href="about.html">درباره ما</a></li>
-            <li class="header-list-item"><a href="">تماس باما</a></li>
+            <li id="notif" class="header-list-item"><a href="">تماس با ما</a></li>
         </ul>
     </header>
+
+    <div class="toast" id="custom-toast">نوتیفیکیشن ظاهر شد!</div>
+
 
     <main class="main">
         <div class="background">
@@ -43,5 +48,8 @@
     <footer class="footer">
         <h2 class="text-footer">تمامی حقوق این وب سایت متعلق به امیرمحمد مومنی پور می باشد .</h2>
     </footer>
+
+    <script src="/HomePage/script/script.js" defer></script>
+
 </body>
 </html>
